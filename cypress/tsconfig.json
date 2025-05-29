@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "cypress/support/global.d.ts",
+    "../node_modules/cypress-real-events/index.d.ts"
+  ],
+  "exclude": [
+    "../node_modules",
+    "cypress/support/index.d.ts"
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules
+
+# cypress
+../../WebstormProjects22/cypress-e2e/cypress/reports
+../../WebstormProjects22/cypress-e2e/cypress/downloads
+../../WebstormProjects22/cypress-e2e/cypress/fixtures/local
+../../WebstormProjects22/cypress-e2e/cypress/screenshots
+../../WebstormProjects22/cypress-e2e/cypress/videos
+
+## local env files
+# cypress.env.json
+/.idea/
